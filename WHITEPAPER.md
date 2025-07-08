@@ -94,7 +94,7 @@ bitchat implements a custom mesh networking protocol over BLE, where each device
 
 ```mermaid
 graph TD
-    subgraph "Physical Space (e.g., Conference, Protest, Disaster Area)"
+    subgraph "Physical Space\n (e.g., Conference, Protest, Disaster Area)"
         subgraph "Zone A"
             A1["Alice\n📱"]
             A2["Bob\n📱"]
