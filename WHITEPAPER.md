@@ -93,10 +93,7 @@ bitchat implements a custom mesh networking protocol over BLE, where each device
 <div align="center">
 
 ```mermaid
----
-config:
-  layout: elk
----
+%%{init: { "config": { "layout": elk} } }%%
 graph TD
     subgraph "Physical Space (e.g., Conference, Protest, Disaster Area)"
         subgraph "Zone A"
